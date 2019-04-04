@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "407781416940",
+    "firebase_url": "https://helper-a6072.firebaseio.com",
+    "project_id": "helper-a6072",
+    "storage_bucket": "helper-a6072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407781416940:android:15b1979d5e0803d9",
+        "android_client_info": {
+          "package_name": "com.wellyimmanuel.helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407781416940-jbusjm75gip6l1tpkm9mk1ibi0dvhvvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wellyimmanuel.helper",
+            "certificate_hash": "f753d400cffa6b017e030004df130f56283271b2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBowAtZM9NAr2XlRgFsvnIf3liRfsyYKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407781416940-3leitmbbp6vmigjar2ruur28tmg36jjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
