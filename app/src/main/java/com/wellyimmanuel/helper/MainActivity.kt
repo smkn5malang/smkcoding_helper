@@ -16,5 +16,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btnRegister.setOnClickListener{
+            val intent = Intent (this, Register::class.java)
+            startActivity(intent)
+        }
+
     }
 }

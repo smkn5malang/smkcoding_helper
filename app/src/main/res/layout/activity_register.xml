@@ -6,10 +6,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/bggradient"
-        tools:context=".Login">
+        tools:context=".Register">
 
     <TextView
-            android:text="LOGIN"
+            android:text="REGISTER"
             android:textSize="20pt"
             android:fontFamily="sans-serif-black"
             android:textColor="#FFFFFF"
@@ -30,7 +30,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+            app:layout_constraintBottom_toTopOf="@+id/btnRegister"
             app:cardCornerRadius="15dp"
             app:cardElevation="20dp"
             app:layout_constraintVertical_bias="0.781"
@@ -101,7 +101,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:cardCornerRadius="15dp"
             app:cardElevation="20dp"
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnRegister"
             android:clickable="true"
             android:foreground="?android:attr/selectableItemBackground"
             app:cardBackgroundColor="@color/colorPrimaryDark"
@@ -110,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
             <TextView
-                    android:text="Login"
+                    android:text="Register"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintTop_toTopOf="parent"
