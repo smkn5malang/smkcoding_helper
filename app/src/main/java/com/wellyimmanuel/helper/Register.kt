@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_register.*
 
 class Register : AppCompatActivity() {
 
@@ -17,8 +17,8 @@ class Register : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
         btnRegister.setOnClickListener {
-            val email = inputEmail.text.toString()
-            val password = inputPassword.text.toString()
+            val email = inputEmailRegister.text.toString()
+            val password = inputPasswordRegister.text.toString()
 
             Log.d("Register", "Email is" + email)
             Log.d("Register", "Password:$password")
